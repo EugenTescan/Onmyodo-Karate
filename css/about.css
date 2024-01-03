@@ -1,0 +1,215 @@
+.about-page-text {
+    padding: 200px 50px;
+    background-color: darkgray;
+}
+
+.about-page-text h1 {
+    font-size: 44px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 20px;
+}
+
+.about-page-text h1 span{
+    color: #159db7;
+    font-weight: 400;
+}
+
+.about-page-text h2 {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 20px;
+}
+
+.about-page-text p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.about-page-module {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    gap: 20px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.about-module i{
+    font-size: 100px;
+    padding: 10px;
+    color: #159db7;
+}
+
+.about-module i:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.about-module h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.about-module p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.about-why-section {
+    background-color: darkgrey;
+}
+
+.about-why-section h2 {
+    padding: 50px 20px;
+    font-size: 44px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-why-section h2 span{
+   color: #159db7;
+   font-weight: 400;
+}
+
+.why-boxes {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.about-why-section i {
+    font-size: 50px;
+    padding: 20px;
+    color: #159db7;
+}
+
+.about-why-section i:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.why-box {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.why-box h3 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.why-box p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px){
+    .about-page-text {
+        padding: 100px 40px;
+    }
+    
+    .about-page-text h1 {       
+        padding: 40px 20px;
+    }
+        
+    .about-page-text h2 {
+        font-size: 30px;
+        padding: 10px 10px;
+    }
+        
+    .about-page-module {
+        padding: 40px 20px;
+    }
+    
+    .about-module i {
+        font-size: 60px;
+    }
+    
+    .about-module h3{
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .about-why-section h2 {
+        padding: 20px 10px;
+        font-size: 40px;        
+    }       
+        
+    .why-box {
+        padding: 0 10px;
+    }    
+}
+
+@media (max-width: 360px){
+    .about-page-text {
+        margin-top: 60px;
+        padding: 100px 10px;
+    }
+    
+    .about-page-text h1 {
+        font-size: 36px;
+        padding: 40px 10px;
+    }
+        
+    .about-page-text h2 {
+        font-size: 22px;
+        font-weight: 300;
+        padding: 20px 10px;
+    }
+    
+    .about-page-text p {
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+    
+    .about-page-module {
+        display: block;
+        padding: 20px 20px;
+    }
+    
+    .about-module i {
+        font-size: 60px;
+        padding: 10px;
+    }
+        
+    .about-module h3{
+        font-size: 28px;
+        font-weight: 400;
+    }
+     
+    .about-why-section h2 {
+        padding: 20px 20px;
+        font-size: 38px;
+    }
+    
+    .why-boxes {
+        display: block;
+        text-align: center;
+    }
+    
+    .why-box {
+        text-align: center;
+    }
+    
+    .why-box h3 {
+        font-weight: 400;
+    }
+    
+    .why-box p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}

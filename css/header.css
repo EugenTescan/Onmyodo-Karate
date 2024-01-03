@@ -1,0 +1,121 @@
+.container {
+    width: 100%;
+}
+
+#menu-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color:#159db7;
+    display: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 60px;
+    background-color: whitesmoke;
+}
+
+.menu-logo img {
+    height: 200%;
+}
+
+.menu-logo img:hover {    
+    transform: scale(1.15);
+    transition: transform 0.5s linear;
+}
+
+.nav-menu {
+    width: 50%;
+    font-size: 22px;
+    font-weight: 600;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-menu ul li a:hover{
+    color: #159db7;    
+    transition: .3s;
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        padding: 20px 20px;
+    }
+    
+    #menu-icon {
+        display: initial;
+    }
+
+    .nav-menu {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        text-align: center;
+        box-shadow: 4px 4px 20px rgb(15, 54n, 55 / 20%);
+        clip-path: circle(0% at 0% 0%);    
+        transition: 0.5s;
+    }
+        
+    .nav-menu ul {
+        display: block;
+        padding: 25px;
+    }
+
+    .nav-menu ul li { 
+        font-size: 30px;       
+        font-weight: 300;
+        padding: 15px;
+    }
+
+    .nav-menu a:hover,
+    .nav-menu.active {
+        border-bottom: none;
+        background-color: #159db7;
+    }
+    
+    .nav-menu.active {
+        clip-path: circle(140% at 0% 0%);
+    }
+
+    .nav-menu ul li a:hover {
+        color: white;
+    }
+
+    .menu-logo img {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        height: 90%;
+    }   
+}
+
+@media (max-width: 360px) {
+    .nav-bar {
+        padding: 25px 25px;
+        height: 25px;
+    }
+        
+    .nav-menu a{
+        font-size: 40px;
+        font-weight: 200;
+        display: block;
+        padding: 15px;
+    }
+    
+}

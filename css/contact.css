@@ -1,0 +1,121 @@
+.contact-section {
+    width: 100%;
+}
+
+.contact-form-text {
+    background-color: lightgrey;
+    padding: 100px;
+    text-align: center;
+}
+
+.contact-form-text h3 {
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-form-text i {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.contact-form-text:hover i{
+    color: black;
+}
+
+.contact-form-text a {
+    padding: 10px 30px;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #25D366;
+    border: 2px solid rgb(4, 160, 4);
+    border-radius: 20px 20px 20px 0;
+    transition: .5s;
+}
+
+.contact-form-text a:hover {
+    background-color: #25D366;    
+    color: black;
+    border: none;
+}
+
+.contact-form {
+    background-color: darkgrey;
+    padding: 50px 100px;
+}
+
+.contact-form input {
+    padding: 10px 10px;
+    height: 40px;
+    width: 100%;
+    margin: 10px;
+}
+
+.contact-form textarea {
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.contact-form input[type="submit"] {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px;
+    background-color:#159db7;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    cursor: pointer; }
+
+.contact-form input[type="submit"]:hover {
+    background-color: #43c3dd; 
+    border-radius: 4px;
+    transition: .5s;
+}
+
+@media (max-width: 360px) {
+    .contact-form-text {
+        margin-top: 40px;
+        padding: 80px 20px;
+    }
+    
+    .contact-form-text h3 {
+        text-align: center;
+        padding: 30px;
+        font-size: 40px;
+    }
+    
+    .contact-form-text i {
+        font-size: 22px;
+    }
+        
+    .contact-form-text a {
+        padding: 6px 6px;
+        font-size: 22px;
+    }
+            
+    .contact-form {
+        padding: 10px 50px;
+    }
+    
+    .contact-form input {
+        padding: 6px 4px;
+        height: 30px;
+        margin: 5px;
+    }
+    
+    .contact-form textarea {
+        height: 200px;
+        margin: 5px;
+        padding: 6px 4px;
+    }
+    
+    .contact-form input[type="submit"] {
+        font-size: 18px;
+        font-weight: 400;
+    }    
+}

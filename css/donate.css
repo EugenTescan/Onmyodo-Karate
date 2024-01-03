@@ -1,0 +1,143 @@
+.redirect-section {
+    padding-top: 80px;
+    background-color: lightgrey;
+}
+
+.redirect-text h2 {
+    font-size: 36px;
+    font-weight: 300;
+    padding: 80px;
+    text-align: center;
+}
+
+.redirect-text p {
+    font-size: 26px;
+    font-weight: 400;
+    padding: 0 20px 40px 0;
+    text-align: center;
+}
+
+.redirect-form {
+    padding: 50px 100px;
+}
+
+.redirect-form input {
+    font-size: 20px;
+    padding: 5px 10px;
+    height: 30px;
+    width: 100%;
+    margin: 10px;
+}
+
+.agree-checkbox {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.agree-checkbox input {
+    margin: 20px 30px;
+}
+
+.agree-checkbox p {
+    padding: 0 10px 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dgpr-checkbox {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.dgpr-checkbox input {
+    margin: 20px 30px;
+}
+
+.dgpr-checkbox p {
+    padding: 0 10px 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.send_button {
+    text-align: center;
+    margin: 0 200px;
+}
+
+.send_button input[type="submit"] {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    background-color:#159db7;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    cursor: pointer; 
+}
+
+.send_button input[type="submit"]:hover {
+    background-color: #43c3dd; 
+    border-radius: 4px;
+    transition: .5s;
+}
+
+
+@media (max-width: 360px) {
+    
+    .redirect-text h2 {
+        font-size: 34px;
+        padding: 40px;
+    }
+    
+    .redirect-text p {
+        font-size: 22px;
+        padding: 10px;
+    }
+    
+    .redirect-form {
+        padding: 0 50px;
+    }
+    
+    .redirect-form input {
+        font-size: 18px;
+        padding: 5px 0;
+        height: 22px;
+        margin: 6px;
+    }
+    
+    .agree-checkbox {
+        padding: 10px;
+    }
+    
+    .agree-checkbox input {
+        margin: 10px 10px;
+    }
+    
+    .agree-checkbox p {
+        padding: 0 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .dgpr-checkbox {
+        padding: 10px;
+    }
+    
+    .dgpr-checkbox input {
+        margin: 10px 10px;
+    }
+    
+    .dgpr-checkbox p {
+        padding: 0 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .send_button {
+        margin: 0 20px;
+    }    
+}

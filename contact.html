@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>C.S. Onmyodo Karate Razvad</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <link rel="shortcut icon" type="image/png" href="/images/mini-logo.png"/>
+        <script src="https://kit.fontawesome.com/96fbc172ba.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <header class="container">
+        <div class="nav-bar">
+            <i class="fa-sharp fa-solid fa-bars" id="menu-icon"></i>
+            <div class="menu-logo">
+                <a href="#"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Acasa</a></li>
+                    <li><a href="about.html">Despre</a></li>
+                    <li><a href="events.html">Evenimente</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </header>
+<body>
+    <div class="back-to-top">
+        <a href="#" class="top">^</a>
+    </div>
+    <div class="contact-section">
+        <div class="contact-form-text">
+            <h3>Contact</h3>            
+            <a href="https://api.whatsapp.com/send?phone=00400727790724&text=Buna ziua, va contactez in legatura cu Asociatia Club Sportiv Onmyodo - Karate Razvad"><i class="fa-brands fa-whatsapp"></i> Whatsapp chat</a>
+        </div>
+        <div class="contact-form">
+            <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+                <input type="text" name="subject" placeholder="Subject" />
+                <input type="text" name="extra_fullname" class="field" placeholder="Full name"/>
+                <input type="email" name="extra_email" class="field" placeholder="Email"/>
+                <textarea name="text" placeholder="Message"></textarea>
+                <input type="hidden" name="access_token" value="p0dk72y93djfgljsawvkgsaa" />                
+                <input type="hidden" name="success_url" value="/index.html" />
+                <input type="hidden" name="error_url" value="404.html" />            
+                <input id="submit_form" type="submit" value="Send" />                
+            </form>
+        </div>
+    </div>
+    <script src="/javascript/script.js"></script>
+</body>
+<footer>
+    <div class="footer-container ">
+        <div class="footer-contact">
+            <a href="#">C.S. Onmyodo Răzvad</a>
+            <a href="tel:+40727790724"><i class="fa-solid fa-phone"></i> 0727790724</a>                   
+            <a href="email:acs.onmyodo@yahoo.com"><i class="fa-regular fa-envelope"></i> acs.onmyodo@yahoo.com</a>
+        </div>
+        <div class="footer-donate">
+            <p>Redirecționează 3.5% din impozitul pe venit anual către C.S. Onmyodo Karate Razvad</p>
+            <a href="donate.html" class="donate-button">Doneaza</a>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/C.S.Onmyodo/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>&#169; Club Sportiv Onmyodo Răzvad | All Rights Reserved, 2023</p>
+        <p>Made with <i class="fa-regular fa-heart"></i> by <a href="https://ten-portofolio.netlify.app/">Tescan Eugen</a></p>
+    </div>
+</footer>
+</html>

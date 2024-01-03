@@ -1,0 +1,42 @@
+.error-404 {
+    background-color: darkgrey;
+}
+
+.error-404-img img {
+    width: 100%;
+}
+
+.error-404-text {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.error-404-text a{
+    padding: 6px 18px;
+    font-size: 28px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: black;
+    background-color: #159db7;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.error-404-button:hover {    
+    background-color: #43c3dd;
+    border-radius: 10px 10px 10px 0;
+}
+
+@media (max-width: 360px) {
+    .error-404 {
+        margin-top: 80px;
+        padding: 0;
+    }
+    
+    .error-404-img img {
+        width: 100%;
+    }
+}
